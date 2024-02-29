@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #8A252C, #970f0f);
+    padding: 0 !important;
+}
+
+.navbar-brand {
+    height: 70px;
+    padding-left: 30px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    font-weight: 400;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.navbar-toggler {
+    outline: none;
+}
+
+/*--------------------------Banner Section--------------------------*/
+
+#banner {
+    background-image: linear-gradient(to right, #8A252C, #970f0f);
+    color: white;
+    padding-top: 5%;
+}
+
+.p1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.p2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+span {
+    color: #F0991A;
+}
+
+.p3 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.logo {
+    position: absolute;
+    width: 400px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 75%;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.6));
+}
+
+.btm-img {
+    width: 100%;
+}
+
+/*--------------------------Banner Section End--------------------------*/
+
+/*---------------------------------------MISSION, VISION, GOALS SECTION---------------------------------------*/
+
+#services {
+    padding: 80px 0;
+}
+
+.service-img {
+    width: 130px;
+    margin-top: 5px;
+}
+
+.services {
+    padding: 20px;
+}
+
+.services h4 {
+    padding: 5px;
+    margin-top: 15px;
+    color: #970f0f;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.title::before {
+    content: '';
+    background: #8A252C;
+    height: 5px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title::after {
+    content: '';
+    background: #8A252C;
+    height: 10px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(7px);
+}
+
+#services .btn-primary {
+    box-shadow: none;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #8A252C, #970f0f);
+}
+
+/*---------------------------------------MISSION, VISION, GOALS SECTION---------------------------------------*/
+/*---------------------------------------STUDENT BODY ORGANIZATION---------------------------------------*/
+#sbo {
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+
+#sbo p {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+
+.title-2::before {
+    content: '';
+    background: #8A252C;
+    height: 5px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title-2::after {
+    content: '';
+    background: #8A252C;
+    height: 10px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    display: block;
+    transform: translateY(1px);
+}
+
+.sbo-icons img {
+    width: 180px;
+    transition: 0.5s;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.6));
+}
+
+.sbo-icons a:hover img {
+    transform: translateY(-50px);
+}
+
+/*---------------------------------------STUDENT BODY ORGANIZATION---------------------------------------*/
+/*---------------------------------------FOOTER START--------------------------------------*/
+#footer {
+    background-image: linear-gradient(to right, #8A252C, #970f0f);
+    color: white;
+}
+
+.footer-img {
+    width: 100%;
+}
+
+.footer-box {
+    padding: 20px;
+}
+
+.footer-box img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.footer-box .fa {
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #8A252C, #970f0f);
+}
+
+.footer-box .form-control {
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+    padding-left: 100px;
+}
+
+.footer-box .btn-primary {
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #8A252C, #970f0f);
+}
+
+.uclm-logo {
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.9));
+}
+
+.engr-logo {
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+}
+
+hr {
+    background-color: white;
+}
+
+.copyright {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.logo {
+    border-radius: 40%;
+}
+
+.container-1 {
+    display: flex;
+}
+
+.act-1 {
+    height: 400px;
+    width: 350px;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+.card {
+    height: 500px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+
+.intro {
+    height: 70px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 330px;
+    background: rgb(27, 27, 27, 0.5);
+    color: white;
+    transition: .5s;
+}
+
+h3 {
+    margin: 10px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.comment {
+    font-size: 20px;
+    margin: 20px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card:hover .intro {
+    height: 220px;
+    top: 240px;
+    background: black;
+}
+
+.card:hover .comment {
+    opacity: 1;
+    visibility: visible;
+}
+
+.card:hover .act-1 {
+    transform: scale(1.2) rotate(-10deg);
+}
